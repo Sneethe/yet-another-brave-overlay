@@ -6,14 +6,14 @@
   </picture>
 </p>
 
-another-brave-overlay
+yet-another-brave-overlay
 =====================
 
-![⚙️ Update](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/another-brave-overlay/update-ebuilds.yml?style=flat-square&logo=github&label=%E2%9A%99%EF%B8%8F%20Update)
-![🧪 Merge (stable)](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/another-brave-overlay/test-stable.yml?style=flat-square&logo=github&label=%F0%9F%A7%AA%20Merge%20(stable))
-![🧪 Merge (beta)](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/another-brave-overlay/test-beta.yml?style=flat-square&logo=github&label=%F0%9F%A7%AA%20Merge%20(beta))
-![🧪 Merge (nightly)](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/another-brave-overlay/test-nightly.yml?style=flat-square&logo=github&label=%F0%9F%A7%AA%20Merge%20(nightly))
-![🔍 Divergence](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/another-brave-overlay/check-src-ebuilds.yml?style=flat-square&logo=github&label=%F0%9F%94%8D%20Divergence)
+![⚙️ Update](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/yet-another-brave-overlay/update-ebuilds.yml?style=flat-square&logo=github&label=%E2%9A%99%EF%B8%8F%20Update)
+![🧪 Merge (stable)](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/yet-another-brave-overlay/test-stable.yml?style=flat-square&logo=github&label=%F0%9F%A7%AA%20Merge%20(stable))
+![🧪 Merge (beta)](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/yet-another-brave-overlay/test-beta.yml?style=flat-square&logo=github&label=%F0%9F%A7%AA%20Merge%20(beta))
+![🧪 Merge (nightly)](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/yet-another-brave-overlay/test-nightly.yml?style=flat-square&logo=github&label=%F0%9F%A7%AA%20Merge%20(nightly))
+![🔍 Divergence](https://img.shields.io/github/actions/workflow/status/falbrechtskirchinger/yet-another-brave-overlay/check-src-ebuilds.yml?style=flat-square&logo=github&label=%F0%9F%94%8D%20Divergence)
 
 This Gentoo overlay provides automatically generated ebuilds for the [Brave browser](https://brave.com/), a privacy-focused, open-source web browser based on Chromium. The ebuilds are based on the official Gentoo Google Chrome ebuilds, which are routinely checked for divergence, and adapted to deliver the stable, beta, and nightly versions of Brave via the following ebuilds:
 
@@ -31,13 +31,13 @@ To install Brave from this overlay, follow these steps:
 1. Add the overlay:
 
     ```sh
-    eselect repository enable another-brave-overlay
+    eselect repository enable yet-another-brave-overlay
     ```
 
 2. Sync the overlay to download the ebuilds:
 
     ```sh
-    emaint sync -r another-brave-overlay
+    emaint sync -r yet-another-brave-overlay
     ```
 
 3. Install Brave from the desired release channel using `emerge`. Available packages are:
@@ -55,7 +55,7 @@ To install Brave from this overlay, follow these steps:
 Issues and Contributions
 ------------------------
 
-If you encounter any problems or have suggestions for improvement, please open an issue on the GitHub repository: https://github.com/falbrechtskirchinger/another-brave-overlay.
+If you encounter any problems or have suggestions for improvement, please open an issue on the GitHub repository: https://github.com/falbrechtskirchinger/yet-another-brave-overlay.
 
 Contributions are welcome! You can contribute by:
 

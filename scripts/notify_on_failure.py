@@ -44,7 +44,7 @@ def main():
     args = parser.parse_args()
 
     if args.test:
-        send_email("another-brave-overlay: Test email", "This is a test.")
+        send_email("yet-another-brave-overlay: Test email", "This is a test.")
         return
 
     run_id = get_run_id(from_event=True)
@@ -64,7 +64,7 @@ def main():
             lines.append(f"- {job_name}: {job_url}")
         body = "\n".join(lines)
 
-        send_email("another-brave-overlay: GitHub workflow failed", body)
+        send_email("yet-another-brave-overlay: GitHub workflow failed", body)
 
 
 if __name__ == "__main__":
